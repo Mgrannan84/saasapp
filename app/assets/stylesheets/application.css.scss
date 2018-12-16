@@ -24,7 +24,7 @@
 
 // Typography Styles
 h1, h2, h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 // Background Gradient
 .navbar, .home-callout {
@@ -37,12 +37,29 @@ h1, h2, h3 {
 .navbar {
   border: none;
 }
+
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
   &:hover {
     color: white;
     opacity: 0.75;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #022968;
   }
 }
 // Home Page Styles
